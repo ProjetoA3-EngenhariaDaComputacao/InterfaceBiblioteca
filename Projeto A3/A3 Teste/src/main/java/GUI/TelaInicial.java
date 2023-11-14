@@ -28,6 +28,9 @@ public class TelaInicial extends javax.swing.JFrame {
 
         btnPerfil = new javax.swing.JButton();
         btnCadastro = new javax.swing.JButton();
+        lblUltimoCadastro1 = new javax.swing.JLabel();
+        lblUltimoCadastro2 = new javax.swing.JLabel();
+        lblUltimoCadastro3 = new javax.swing.JLabel();
         lblFundoInicial = new javax.swing.JLabel();
         jMenuBar1 = new javax.swing.JMenuBar();
         jMenu1 = new javax.swing.JMenu();
@@ -51,6 +54,18 @@ public class TelaInicial extends javax.swing.JFrame {
         btnCadastro.setText("Cadastrar");
         getContentPane().add(btnCadastro);
         btnCadastro.setBounds(620, 30, 90, 23);
+
+        lblUltimoCadastro1.setText("Livro recente 1");
+        getContentPane().add(lblUltimoCadastro1);
+        lblUltimoCadastro1.setBounds(410, 330, 130, 90);
+
+        lblUltimoCadastro2.setText("Livro recente 2");
+        getContentPane().add(lblUltimoCadastro2);
+        lblUltimoCadastro2.setBounds(607, 346, 140, 70);
+
+        lblUltimoCadastro3.setText("Livro recente 3");
+        getContentPane().add(lblUltimoCadastro3);
+        lblUltimoCadastro3.setBounds(787, 346, 140, 70);
 
         lblFundoInicial.setIcon(new javax.swing.ImageIcon("C:\\Users\\paulo\\Downloads\\A3 - PSC - Modelagem\\Imagens\\fundoInicial.png")); // NOI18N
         lblFundoInicial.setText("jLabel1");
@@ -121,6 +136,9 @@ public class TelaInicial extends javax.swing.JFrame {
     private javax.swing.JMenu jMenu2;
     private javax.swing.JMenuBar jMenuBar1;
     private javax.swing.JLabel lblFundoInicial;
+    private javax.swing.JLabel lblUltimoCadastro1;
+    private javax.swing.JLabel lblUltimoCadastro2;
+    private javax.swing.JLabel lblUltimoCadastro3;
     private javax.swing.JMenuItem menuCadastrarLivro;
     private javax.swing.JMenuItem menuFazerResenha;
     // End of variables declaration//GEN-END:variables
