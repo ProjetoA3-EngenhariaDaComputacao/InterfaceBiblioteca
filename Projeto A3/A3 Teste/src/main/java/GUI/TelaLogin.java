@@ -90,7 +90,7 @@ public class TelaLogin extends javax.swing.JFrame {
         getContentPane().add(txtSenha);
         txtSenha.setBounds(220, 270, 160, 38);
 
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\paulo\\Downloads\\Imagens\\fundoLogin.png")); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\paulo\\Downloads\\A3 - PSC - Modelagem\\Imagens\\fundoLogin.png")); // NOI18N
         getContentPane().add(jLabel1);
         jLabel1.setBounds(90, 30, 530, 450);
 

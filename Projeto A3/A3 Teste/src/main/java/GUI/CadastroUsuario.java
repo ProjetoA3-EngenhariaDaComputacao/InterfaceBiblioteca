@@ -112,7 +112,7 @@ public class CadastroUsuario extends javax.swing.JFrame {
         getContentPane().add(lblTipoUsu);
         lblTipoUsu.setBounds(170, 300, 130, 30);
 
-        lblFundo.setIcon(new javax.swing.ImageIcon("C:\\Users\\paulo\\Downloads\\Imagens\\fundoCadastro.png")); // NOI18N
+        lblFundo.setIcon(new javax.swing.ImageIcon("C:\\Users\\paulo\\Downloads\\A3 - PSC - Modelagem\\Imagens\\fundoCadastro.png")); // NOI18N
         getContentPane().add(lblFundo);
         lblFundo.setBounds(-30, -20, 490, 440);
 

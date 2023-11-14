@@ -28,7 +28,7 @@ public class TelaInicial extends javax.swing.JFrame {
 
         btnPerfil = new javax.swing.JButton();
         btnCadastro = new javax.swing.JButton();
-        jLabel1 = new javax.swing.JLabel();
+        lblFundoInicial = new javax.swing.JLabel();
         jMenuBar1 = new javax.swing.JMenuBar();
         jMenu1 = new javax.swing.JMenu();
         menuCadastrarLivro = new javax.swing.JMenuItem();
@@ -52,10 +52,10 @@ public class TelaInicial extends javax.swing.JFrame {
         getContentPane().add(btnCadastro);
         btnCadastro.setBounds(620, 30, 90, 23);
 
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\paulo\\Downloads\\Imagens\\fundoInicial.png")); // NOI18N
-        jLabel1.setText("jLabel1");
-        getContentPane().add(jLabel1);
-        jLabel1.setBounds(0, 0, 1000, 500);
+        lblFundoInicial.setIcon(new javax.swing.ImageIcon("C:\\Users\\paulo\\Downloads\\A3 - PSC - Modelagem\\Imagens\\fundoInicial.png")); // NOI18N
+        lblFundoInicial.setText("jLabel1");
+        getContentPane().add(lblFundoInicial);
+        lblFundoInicial.setBounds(0, 0, 1000, 500);
 
         jMenu1.setText("Menu");
 
@@ -117,10 +117,10 @@ public class TelaInicial extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnCadastro;
     private javax.swing.JButton btnPerfil;
-    private javax.swing.JLabel jLabel1;
     private javax.swing.JMenu jMenu1;
     private javax.swing.JMenu jMenu2;
     private javax.swing.JMenuBar jMenuBar1;
+    private javax.swing.JLabel lblFundoInicial;
     private javax.swing.JMenuItem menuCadastrarLivro;
     private javax.swing.JMenuItem menuFazerResenha;
     // End of variables declaration//GEN-END:variables

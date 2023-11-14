@@ -70,7 +70,7 @@ public class TelaAdmin extends javax.swing.JFrame {
         getContentPane().add(btnVoltarPaginaInicial);
         btnVoltarPaginaInicial.setBounds(360, 80, 100, 40);
 
-        lblFundo.setIcon(new javax.swing.ImageIcon("C:\\Users\\paulo\\Downloads\\Imagens\\background.jpg")); // NOI18N
+        lblFundo.setIcon(new javax.swing.ImageIcon("C:\\Users\\paulo\\Downloads\\A3 - PSC - Modelagem\\Imagens\\background.jpg")); // NOI18N
         lblFundo.setText("jLabel1");
         getContentPane().add(lblFundo);
         lblFundo.setBounds(-27, -82, 610, 420);
