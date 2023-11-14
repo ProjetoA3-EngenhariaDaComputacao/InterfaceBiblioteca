@@ -26,15 +26,38 @@ public class TelaPerfil extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jLabel1 = new javax.swing.JLabel();
+        txtNome = new javax.swing.JTextField();
+        cbmIdade = new javax.swing.JComboBox<>();
+        cbmSexo = new javax.swing.JComboBox<>();
+        lblLivroPreferido1 = new javax.swing.JLabel();
+        lblLivroPreferido2 = new javax.swing.JLabel();
+        lblFundoPerfil = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(null);
+        getContentPane().add(txtNome);
+        txtNome.setBounds(90, 10, 180, 20);
 
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\paulo\\Downloads\\A3 - PSC - Modelagem\\Imagens\\fundoPerfil.png")); // NOI18N
-        jLabel1.setText("jLabel1");
-        getContentPane().add(jLabel1);
-        jLabel1.setBounds(0, 0, 1000, 500);
+        cbmIdade.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46", "47", "48", "49", "50", "51", "52", "53", "54", "55", "56", "57", "58", "59", "60", "61", "62", "63", "64", "65", "66", "67", "68", "69", "70", "71", "72", "73", "74", "75", "76", "77", "78", "79", "80", "81", "82", "83", "84", "85", "86", "87", "88", "89", "90", "91", "92", "93", "94", "95", "96", "97", "98", "99", "100." }));
+        getContentPane().add(cbmIdade);
+        cbmIdade.setBounds(90, 80, 72, 22);
+
+        cbmSexo.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Masculino", "Feminino", "Não quero informar" }));
+        getContentPane().add(cbmSexo);
+        cbmSexo.setBounds(90, 140, 139, 22);
+
+        lblLivroPreferido1.setText("Livro preferido 1");
+        getContentPane().add(lblLivroPreferido1);
+        lblLivroPreferido1.setBounds(56, 316, 130, 80);
+
+        lblLivroPreferido2.setText("Livro preferido 2");
+        getContentPane().add(lblLivroPreferido2);
+        lblLivroPreferido2.setBounds(276, 326, 140, 70);
+
+        lblFundoPerfil.setIcon(new javax.swing.ImageIcon("C:\\Users\\paulo\\Downloads\\A3 - PSC - Modelagem\\Imagens\\fundoPerfil.png")); // NOI18N
+        lblFundoPerfil.setText("jLabel1");
+        getContentPane().add(lblFundoPerfil);
+        lblFundoPerfil.setBounds(0, 0, 1000, 500);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -75,6 +98,11 @@ public class TelaPerfil extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JLabel jLabel1;
+    private javax.swing.JComboBox<String> cbmIdade;
+    private javax.swing.JComboBox<String> cbmSexo;
+    private javax.swing.JLabel lblFundoPerfil;
+    private javax.swing.JLabel lblLivroPreferido1;
+    private javax.swing.JLabel lblLivroPreferido2;
+    private javax.swing.JTextField txtNome;
     // End of variables declaration//GEN-END:variables
 }
