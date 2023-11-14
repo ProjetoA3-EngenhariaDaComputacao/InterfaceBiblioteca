@@ -1,9 +1,12 @@
 DAO\ConnectionFactory.class
 GUI\CadastroUsuario$1.class
 GUI\TelaAdmin$1.class
+GUI\TelaPerfil$1.class
 GUI\TelaLogin$4.class
 GUI\TelaInicial.class
 GUI\TelaAdmin.class
+GUI\TelaResenha$1.class
+GUI\TelaPerfil.class
 Cadastros\TestePessoa.class
 Cadastros\Usuario.class
 GUI\TelaInicial$2.class
@@ -19,6 +22,7 @@ GUI\TelaInicial$1.class
 GUI\TelaLogin$3.class
 GUI\CadastroUsuario$5.class
 GUI\CadastroUsuario$4.class
+GUI\TelaResenha.class
 GUI\TelaLogin$6.class
 Cadastros\Pessoa.class
 GUI\TelaMenu$2.class
